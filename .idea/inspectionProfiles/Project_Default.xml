@@ -1,0 +1,47 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.11" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="copy" />
+          <option value="numpy" />
+          <option value="random" />
+          <option value="time" />
+          <option value="einstAI" />
+          <option value="AML.Synthetic.naru.replay_memory" />
+          <option value="src.cpp.qpsolver.cvxopt.src.python.cvxprog.*" />
+          <option value="AML.Transformers.stochastic_forager.src.cpp.qpsolver.cvxopt.src.python.cvxprog.kktsolver" />
+          <option value="AML.Synthetic.deepdb.deepdb_job_ranges.aqp_spn.code_generation.generate_code.*" />
+          <option value="AML.Synthetic.deepdb.deepdb_job_ranges.aqp_spn.custom_spflow.custom_learning.*" />
+          <option value="AML.Synthetic.deepdb.deepdb_job_ranges.rspn.algorithms.expectations.rspn" />
+          <option value="python2x3" />
+          <option value="AML.Synthetic.deepdb.deepdb_job_ranges.aqp_spn.util.bloom_filter.*" />
+          <option value="AML.Transformers.stochastic_forager.preprocessing.pattern2totalnum" />
+          <option value="bool.autocommit" />
+          <option value="bool.rollback" />
+          <option value="bool.commit" />
+          <option value="bool.begin" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
